@@ -1,1 +1,1 @@
-web: gunicorn forecasting_api:app --bind 0.0.0.0:$PORT
+web: gunicorn forecasting_api:app
